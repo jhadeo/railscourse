@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+#production to heroku
+group :production do
+  gem 'pg'
+end
